@@ -1,5 +1,5 @@
 #### `cd`: go through dicrectories
-`cd /d d:\` 
+`cd /d d:\` switch to disk D
 #### `dir`: list dicrectories information
 `dir /s`: list all files include sub directories
 #### `tree` list directories info on a tree, does not include files
@@ -22,11 +22,12 @@
 #### `type`: print out the contents of a file
 #### `more`: print the contents with separated screen
 #### `del`: delete files
-#### `net user administrator /active:yes` active admin account
-`net user administrator /active:no`
 #### `rd`: delete directories
 `rd dir_name`: if the folder dir_name is empty
 `rd /s dir_name`: Recursiveyly delete dir of dir_name
 `rd /p dir_name`: Don't needs confirm before delete
 
 #### `color`: change console's background color, `color -h`for more information
+
+#### `net user administrator /active:yes` active admin account
+`net user administrator /active:no`
